@@ -1,0 +1,110 @@
+
+.page {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 0 50px;
+}
+
+.nav {
+  height: 100px;
+  width: 100%;
+  border-bottom: 2px solid #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navPart2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  padding: 100px 50px;
+  display: flex; /* Add this line if you want the entire left section to use flex layout */
+  flex-direction: column; /* This makes sure that the text and the image container are stacked vertically */
+}
+
+.left h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+
+.left h1:nth-last-child(1) {
+  margin-left: 30px;
+}
+
+.left h1 span img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -20px;
+  border: 3px solid #000;
+}
+
+.left h1 span img:nth-child(1) {
+  margin-left: 0;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  padding: 100px 50px;
+  overflow: hidden;
+}
+
+.right img {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.box {
+  height: 250px;
+  width: 400px;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+}
+
+.box h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.box p {
+  font-size: 20px;
+  color: #dadada;
+}
