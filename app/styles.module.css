@@ -31,6 +31,12 @@
   font-weight: 500;
 }
 
+.nav a {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
 .nav h4 {
   text-transform: uppercase;
   font-weight: 500;
@@ -107,4 +113,10 @@
 .box p {
   font-size: 20px;
   color: #dadada;
+}
+
+
+.largeButton {
+  font-size: 25px; /* Adjust font size as needed */
+  padding: 24px 24px; /* Adjust button padding as needed */
 }
